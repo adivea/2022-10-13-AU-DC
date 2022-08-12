@@ -7,9 +7,9 @@ venue: "Aarhus University"        # brief name of the institution that hosts the
 address: "Jens Skous Vej 5, 8000 Aarhus"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "dk"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
-latitude: "56.1705"        # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "10.2011"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "13-14 Oct 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+latitude: "56.1725"        # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: "10.2054"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+humandate: "13-14 Oct 2022"    # human-readable dates for th,e workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 - 16:00"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2022-10-13      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2022-10-14        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
