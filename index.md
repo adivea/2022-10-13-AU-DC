@@ -36,6 +36,14 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 Check DC curriculum
 {% endcomment %}
 
+<iframe
+  src="[https://docs.google.com/forms/d/e/1FAIpQLSdC3G8H1BASWL7iD8CopjvfPmJhwOUJPFx-Gbm0yL_qd7M-qA/viewform?usp=sf_link](https://docs.google.com/forms/d/e/1FAIpQLSe-5HbTTOsxwOhxyunkkw9EiRMR-kbUgSwGtiLd6ErOW2ITUQ/viewform)"
+  frameborder="0"
+  width="100%"
+  height="700px"
+  scrolling="auto">
+</iframe>
+
 {% if site.carpentry == "dc" %}
 {% unless site.curriculum == "dc-astronomy" or site.curriculum == "dc-ecology" or site.curriculum == "dc-genomics" or site.curriculum == "dc-socsci" or site.curriculum == "dc-geospatial" %}
 <div class="alert alert-warning">
