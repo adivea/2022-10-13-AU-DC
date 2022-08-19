@@ -31,18 +31,10 @@ double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
 
-
 {% comment %}
 Check DC curriculum
 {% endcomment %}
 
-<iframe
-  src="https://docs.google.com/forms/d/e/1FAIpQLSe-5HbTTOsxwOhxyunkkw9EiRMR-kbUgSwGtiLd6ErOW2ITUQ/viewform"
-  frameborder="0"
-  width="100%"
-  height="700px"
-  scrolling="auto">
-</iframe>
 
 {% if site.carpentry == "dc" %}
 {% unless site.curriculum == "dc-astronomy" or site.curriculum == "dc-ecology" or site.curriculum == "dc-genomics" or site.curriculum == "dc-socsci" or site.curriculum == "dc-geospatial" %}
@@ -72,6 +64,15 @@ This block includes the Eventbrite registration widget if
 are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
+
+<iframe
+  src="https://docs.google.com/forms/d/e/1FAIpQLSe-5HbTTOsxwOhxyunkkw9EiRMR-kbUgSwGtiLd6ErOW2ITUQ/viewform"
+  frameborder="0"
+  width="100%"
+  height="700px"
+  scrolling="auto">
+</iframe>
+
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
