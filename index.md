@@ -14,7 +14,7 @@ humantime: "9:00 - 16:00"    # human-readable times for the workshop e.g., "9:00
 startdate: 2022-10-13      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2022-10-14        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Adela Sobotkova", "Shawn Ross"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Max Odsbjerg"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["adela@fedarch.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -37,7 +37,7 @@ Check DC curriculum
 {% endcomment %}
 
 <iframe
-  src="[https://docs.google.com/forms/d/e/1FAIpQLSdC3G8H1BASWL7iD8CopjvfPmJhwOUJPFx-Gbm0yL_qd7M-qA/viewform?usp=sf_link](https://docs.google.com/forms/d/e/1FAIpQLSe-5HbTTOsxwOhxyunkkw9EiRMR-kbUgSwGtiLd6ErOW2ITUQ/viewform)"
+  src="https://docs.google.com/forms/d/e/1FAIpQLSe-5HbTTOsxwOhxyunkkw9EiRMR-kbUgSwGtiLd6ErOW2ITUQ/viewform"
   frameborder="0"
   width="100%"
   height="700px"
