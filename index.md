@@ -63,7 +63,7 @@ This block includes the Eventbrite registration widget if
 'eventbrite' has been set in the header.  You can delete it if you
 are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
+
 
 <iframe
   src="https://docs.google.com/forms/d/e/1FAIpQLSe-5HbTTOsxwOhxyunkkw9EiRMR-kbUgSwGtiLd6ErOW2ITUQ/viewform"
@@ -72,7 +72,7 @@ displayed if the 'eventbrite' field in the header is not set.
   height="700px"
   scrolling="auto">
 </iframe>
-
+{% endcomment %}
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
